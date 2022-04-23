@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="font-sans flex flex-col min-h-screen">
+      <header className="app-header">
+        Header
       </header>
+
+      <main className="flex-1 w-full">
+        Content
+      </main>
+
+      <footer>
+        Geidel Guerra &copy; 2022. All Rights Reserved
+      </footer>
     </div>
   );
 }
