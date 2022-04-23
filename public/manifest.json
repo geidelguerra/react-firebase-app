@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React + Firebase App",
+  "name": " Web App for implementing CRUD operations on these gateways and their associated devices",
   "icons": [
     {
       "src": "favicon.ico",
